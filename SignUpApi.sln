@@ -5,6 +5,10 @@ VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignUpApi", "SignUpApi\SignUpApi.csproj", "{7D9DF4C6-70F5-4A4E-82F2-3B85FFF92B5D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignUpApi.EFCore", "SignUpApi.EFCore\SignUpApi.EFCore.csproj", "{6386117A-B291-4D2A-88CA-0E99CAA34115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignUpApi.Model", "SignUpApi.Model\SignUpApi.Model.csproj", "{BAB9BDB0-F171-4084-BD2A-256B004150A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7D9DF4C6-70F5-4A4E-82F2-3B85FFF92B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D9DF4C6-70F5-4A4E-82F2-3B85FFF92B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D9DF4C6-70F5-4A4E-82F2-3B85FFF92B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6386117A-B291-4D2A-88CA-0E99CAA34115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6386117A-B291-4D2A-88CA-0E99CAA34115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6386117A-B291-4D2A-88CA-0E99CAA34115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6386117A-B291-4D2A-88CA-0E99CAA34115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAB9BDB0-F171-4084-BD2A-256B004150A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAB9BDB0-F171-4084-BD2A-256B004150A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAB9BDB0-F171-4084-BD2A-256B004150A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAB9BDB0-F171-4084-BD2A-256B004150A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
