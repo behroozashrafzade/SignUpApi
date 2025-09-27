@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\SignUpApi.EFCore\SignUpApi.EFCore.csproj" />
     <ProjectReference Include="..\SignUpApi.Model\SignUpApi.Model.csproj" />
   </ItemGroup>
